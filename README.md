@@ -2,8 +2,9 @@
 Simple UI for a JS NES emulator using the original repository of elzo-d and 98.CSS
 
 # Source
-https://github.com/elzo-d/NesJs <br>
-https://github.com/jdan/98.css
+
+[elzo-d NESJs](https://github.com/elzo-d/NesJs)
+[98.css](https://github.com/jdan/98.css)
 
 # Changes
 
