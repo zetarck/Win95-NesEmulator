@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NES Emulator 95</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">NES Emulator.exe</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <div class="input">
+            <input id="rom" type="file" />
+          </div>
+          <div class="log"></div>
+          <pre id="log"></pre>
+          <canvas id="output"></canvas>
+
+          <div class="buttons">
+            <button id="hardreset">Power cycle</button>
+            <button id="runframe">Run 1 frame</button><br />
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+          </div>
+          <input type="checkbox" id="ishirom" />
+
+          <div class="status-bar">
+            <p class="status-bar-field">Credits to elzo-d</p>
+            <p class="status-bar-field">
+              Source on <a href="https://github.com/elzo-d/nesJs">Github</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/zip.js"></script>
+    <script src="lib/inflate.js"></script>
+    <script src="nes/mappers.js"></script>
+    <script src="mappers/nrom.js"></script>
+    <script src="mappers/mmc1.js"></script>
+    <script src="mappers/uxrom.js"></script>
+    <script src="mappers/cnrom.js"></script>
+    <script src="mappers/mmc3.js"></script>
+    <script src="mappers/axrom.js"></script>
+    <script src="nes/cpu.js"></script>
+    <script src="nes/pipu.js"></script>
+    <script src="nes/apu.js"></script>
+    <script src="nes/nes.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
