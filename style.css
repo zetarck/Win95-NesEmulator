@@ -28,9 +28,7 @@ html {
 #tv {
   background-color: black;
 }
-.custom-file-upload{
-  border: 1px solid #ccc;
-}
+
 .input{
   
   display: flex;
@@ -41,4 +39,21 @@ html {
 
 .status-bar{
   padding-top: 20px;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+#log {
+  font-family: monospace;
+  max-height: 100px;
+  min-height: 100px;
+  overflow: scroll;
+  text-align: left;
+  width: 512px;
+  margin: auto;
+  border: 1px solid #afafaf;
+  padding: 5px;
 }
