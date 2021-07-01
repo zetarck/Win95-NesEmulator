@@ -11,4 +11,4 @@ i block the buttons to avoid console errors and make the UI more intuitive.
 
 # Live site
 
-You can test it [here] (https://zetarck.github.io/Win95-NesEmulator/)
+You can test it [here](https://zetarck.github.io/Win95-NesEmulator/)
